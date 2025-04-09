@@ -8,5 +8,3 @@ managedNodeGroups:
    desiredCapacity: 1
    instanceType: "t3.large"
    spot: true
-
-
