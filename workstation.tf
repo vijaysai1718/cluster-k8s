@@ -1,5 +1,5 @@
 resource "aws_key_pair" "key" {
-  key_name = "InstanceConnectionKey"
+  key_name = "secret_key"
   public_key =file("E:/DevopsAws/secret_key.pub") #Make sure you already created a key pair file if not,create with your custom name and paste the file location where you have created
   
 }
